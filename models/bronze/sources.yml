@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: bronze
+    description: "Données brutes importées dans MySQL"
+    schema: bronze
+    tables:
+      - name: customers
+        description: "Données brutes des clients"
+
+      - name: orders
+        description: "Données brutes des commandes"
+
+      - name: orderitems
+        description: "Détails des commandes"
+
